@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayara Tech Fix - Solicitar orçamento</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Nayara Tech Fix</h1>
+
+        <a href="index.html">
+            <img src="img/logo.png" alt="Logo da Nayara Tech Fix">
+        </a>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobrenos.html">Sobre nós</a>
+            <a href="serviços.html">Serviços</a>
+            <a href="orcamento.html">Orçamento</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Solicite seu orçamento</h2>
+            <p>Preencha as informações abaixo para nos contar o que aconteceu com seu aparelho. Nossa equipe analisará as informações e entrará em contato para orientar sobre os próximos passos.</p>
+        </section>
+            <form>
+                <section>
+                    <h2>Seus dados</h2>
+                <label for="nome"> Nome completo</label>
+                <input type="text" id="nome" placeholder="Digite seu nome:" required>
+                <label for="telefone">Telefone/WhatsApp</label>
+                <input type="tel" id="telefone" placeholder="Digite seu telefone:" required>
+                <label for="email"> E-mail</label>
+                <input type="email" id="email" placeholder="Digite seu E-mail:" required>
+                </section>
+                <section>
+                    <h2>Informações do aparelho</h2>
+                <label for="marca">Qual é a marca do seu aparelho?</label>
+                <select id="marca" required>
+                    <option value="" selected disabled>Selecione uma marca</option>
+                    <option>Apple</option>
+                    <option>Samsung</option>
+                    <option>Motorola</option>
+                    <option>Xiaomi</option>
+                    <option>Asus</option>
+                    <option>Oppo</option>
+                    <option>Realme</option>
+                </select>
+                <label for="modelo">Modelo do aparelho</label>
+                <input type="text" id="modelo" placeholder="Ex: iPhone 13" required>
+                </section>
+                <section>
+                    <h2>Problemas</h2>
+                <label for="estado">O aparelho liga?</label>
+                <select id="estado" required>
+                    <option value="" selected disabled>Selecione uma opção</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                    <option>Liga, mas apresenta problemas</option>
+                </select>
+                <label for="problema">Conte o que aconteceu com seu aparelho</label>
+                <textarea id="problema" placeholder="Descreva o problema com o máximo de detalhes possível." required></textarea>
+                </section>
+                <section>
+                    <h2>Serviços</h2>
+                <label for="servico">Qual serviço você procura?</label>
+                <select id="servico" required>
+                    <option value="" selected disabled  >Selecione um serviço</option>
+                    <option>Troca de tela</option>
+                    <option>Troca de bateria</option>
+                    <option>Reparo de conector</option>
+                    <option>Manutenção de software</option>
+                    <option>Diagnóstico</option>
+                    <option>Outro</option>
+                </select>
+                </section>
+                <section>
+                    <h2>Preferência de contato</h2>
+                    <label for="whatsapp">WhatsApp</label>
+                    <input type="radio" id="whatsapp" name="preferencia" required>
+                    <label for="ligacao">Ligação</label>
+                    <input type="radio" id="ligacao" name="preferencia">
+                    <label for="e-mail_contato">E-mail</label>
+                    <input type="radio" id="e-mail_contato" name="preferencia">
+                </section>
+                <button type="submit">Solicitar orçamento</button>
+            </form>
+    </main>
+
+     <footer>
+
+        <h2>Nayara Tech Fix</h2>
+
+        <p>
+            Tecnologia, cuidado e confiança para seu aparelho.
+        </p>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="serviços.html">Serviços</a>
+            <a href="sobrenos.html">Sobre nós</a>
+            <a href="orcamento.html">Orçamento</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+        <p>
+            © 2026 Nayara Tech Fix. Todos os direitos reservados.
+        </p>
+
+    </footer>
+</body>
+</html>
