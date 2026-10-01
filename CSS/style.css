@@ -1,0 +1,37 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header {
+    background-color: black;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+.botao-orcamento {
+    padding: 8px 16px;
+    margin-left: auto;
+    background-color: black;
+    border: 2px solid goldenrod;
+    color: goldenrod;
+    border-radius: 25px;
+    text-decoration: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
